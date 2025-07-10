@@ -31,7 +31,7 @@ genai.configure(api_key="AIzaSyDDrCDI2lPBJwKQoXqS3shRnpJU6SNPVGI")
 model = genai.GenerativeModel("models/gemini-2.5-pro")
 
 # Load Data
-df = pd.read_csv("C:/Users/Lenovo/OneDrive/Desktop/CareerAdvisor/skills_career(Sheet1).csv")
+df = pd.read_csv("skills_career(Sheet1).csv")
 embedding_model = SentenceTransformerEmbeddings(model_name="all-MiniLM-L6-v2")
 
 # Create and save FAISS index if it doesn't exist
