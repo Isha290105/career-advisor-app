@@ -6,4 +6,4 @@ faiss-cpu
 langchain
 google-generativeai
 langchain-community
-
+matplotlib
